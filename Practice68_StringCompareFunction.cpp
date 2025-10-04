@@ -1,0 +1,8 @@
+#include <iostream>
+#include <cstring>
+using namespace std;
+int main() {
+    char a[100],b[100];
+    cin>>a>>b;
+    if(strcmp(a,b)==0) cout<<"Equal"; else cout<<"Not Equal";
+}
